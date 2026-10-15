@@ -97,12 +97,12 @@ export type GalabauConfig = {
 export const galabau: GalabauConfig = {
   "company": {
     "name": "Manfred Gelszinnus - Baumpflege und Gartengestaltung",
-    "city": "Rastatt",
+    "city": "Karlsruhe",
     "foundedYear": "",
     "teamSize": "",
     "machines": ""
   },
-  "heroSubline": "Baumpflege, Baumfällung, Baumkontrolle und Neupflanzung: fachgerecht, sicher und aus einer Hand.",
+  "heroSubline": "Baumpflege, Baumfällung, Baumkontrolle und Gartengestaltung: fachgerecht, sicher und aus einer Hand.",
   "services": [
     {
       "key": "baumpflege",
@@ -155,8 +155,8 @@ export const galabau: GalabauConfig = {
         "baseMin": 350
       },
       "seo": {
-        "title": "Baumpflege in Rastatt | Manfred Gelszinnus",
-        "description": "Fachgerechte Baumpflege in Rastatt und Umgebung: Kronenpflege, Totholzentfernung, Rückschnitt an Dach und Leitungen. Besichtigung vor Ort, klares Angebot."
+        "title": "Baumpflege in Karlsruhe | Manfred Gelszinnus",
+        "description": "Fachgerechte Baumpflege in Karlsruhe und Umgebung: Kronenpflege, Totholzentfernung, Rückschnitt an Dach und Leitungen. Besichtigung vor Ort, klares Angebot."
       }
     },
     {
@@ -203,15 +203,15 @@ export const galabau: GalabauConfig = {
           "a": "Vom 1. März bis 30. September gelten zum Schutz brütender Vögel strenge Einschränkungen, und besetzte Nester dürfen nie zerstört werden. Ist ein Baum akut nicht mehr standsicher, sind Ausnahmen möglich. Wir prüfen das im Einzelfall vor Ort."
         }
       ],
-      "image": "",
+      "image": "/assets/leistungen/baumfaellung.webp",
       "estimate": {
         "minPerUnit": 0,
         "maxPerUnit": 0,
         "baseMin": 500
       },
       "seo": {
-        "title": "Baumfällung in Rastatt | Manfred Gelszinnus",
-        "description": "Baumfällung in Rastatt und Umgebung, auch komplexe Fällungen auf engem Raum. Prüfung von Genehmigung und Schonzeit, Absicherung, Entsorgung."
+        "title": "Baumfällung in Karlsruhe | Manfred Gelszinnus",
+        "description": "Baumfällung in Karlsruhe und Umgebung, auch komplexe Fällungen auf engem Raum. Prüfung von Genehmigung und Schonzeit, Absicherung, Entsorgung."
       }
     },
     {
@@ -265,52 +265,52 @@ export const galabau: GalabauConfig = {
         "baseMin": 150
       },
       "seo": {
-        "title": "Baumkontrolle in Rastatt | Manfred Gelszinnus",
-        "description": "Baumkontrolle in Rastatt und Umgebung: Sichtkontrolle, Dokumentation und klare Empfehlung zur Verkehrssicherheit Ihrer Bäume."
+        "title": "Baumkontrolle in Karlsruhe | Manfred Gelszinnus",
+        "description": "Baumkontrolle in Karlsruhe und Umgebung: Sichtkontrolle, Dokumentation und klare Empfehlung zur Verkehrssicherheit Ihrer Bäume."
       }
     },
     {
       "key": "neupflanzung",
       "slug": "neupflanzung",
-      "label": "Neupflanzung",
-      "navLabel": "Neupflanzung",
-      "cta": "Pflanzung anfragen",
+      "label": "Gartengestaltung",
+      "navLabel": "Gartengestaltung",
+      "cta": "Gartengestaltung anfragen",
       "unit": "stk",
-      "teaser": "Der richtige Baum am richtigen Platz: Auswahl, fachgerechte Pflanzung und Gestaltung rund um den neuen Baum.",
-      "intro": "Ein Baum wächst Jahrzehnte. Ob er sich gut entwickelt, entscheidet sich bei der Pflanzung: passende Art für Standort und Platz, ausreichend große Pflanzgrube, Verankerung und eine gute Anwachspflege. Nach einer Fällung beraten wir Sie gern zu einer Ersatzpflanzung.",
+      "teaser": "Ihr Garten nach Ihren Wünschen: Planung, Bepflanzung und Gestaltung, abgestimmt auf Platz, Standort und Pflegeaufwand.",
+      "intro": "Ein Garten soll zu Ihnen passen und über Jahre Freude machen. Wir planen mit Ihnen gemeinsam, welche Bäume, Sträucher und Pflanzen an welchen Platz gehören, gestalten Beete und Flächen neu und achten darauf, dass der Pflegeaufwand zu Ihrem Alltag passt. Nach einer Fällung beraten wir Sie gern zur Neugestaltung der frei gewordenen Fläche.",
       "bullets": [
-        "Beratung zu Baumart, Endgröße und Abstand zu Gebäuden",
-        "Ersatzpflanzung nach einer Fällung",
-        "Fachgerechte Pflanzgrube, Bodenverbesserung und Verankerung",
-        "Gestaltung der Fläche rund um den neuen Baum",
+        "Beratung und Planung zur Neu- oder Umgestaltung Ihres Gartens",
+        "Pflanzung von Bäumen, Sträuchern, Hecken und Stauden",
+        "Neugestaltung von Beeten und Flächen, auch nach einer Fällung",
+        "Bodenvorbereitung und Bodenverbesserung",
         "Hinweise zur Wässerung und Pflege in den ersten Jahren"
       ],
       "ablauf": [
         {
           "title": "Wunsch klären",
-          "text": "Wo soll der Baum stehen, wie groß darf er werden, soll er blühen, Schatten spenden oder Sichtschutz geben?"
+          "text": "Was soll Ihr Garten können: blühen, Schatten spenden, Sichtschutz geben oder einfach wenig Arbeit machen?"
         },
         {
-          "title": "Standort prüfen",
-          "text": "Wir prüfen Boden, Platz, Leitungen und Abstände vor Ort."
+          "title": "Vor Ort ansehen",
+          "text": "Wir prüfen Boden, Licht, Platz, Leitungen und Abstände direkt auf Ihrem Grundstück."
         },
         {
           "title": "Angebot",
-          "text": "Baum, Pflanzung, Verankerung und Material übersichtlich aufgeführt."
+          "text": "Pflanzen, Arbeiten und Material übersichtlich aufgeführt, ohne versteckte Positionen."
         },
         {
-          "title": "Pflanzung",
-          "text": "Fachgerecht gepflanzt, gesichert und angegossen, mit Pflegehinweisen für die ersten Jahre."
+          "title": "Umsetzung",
+          "text": "Fachgerecht gepflanzt und gestaltet, mit Pflegehinweisen für die ersten Jahre."
         }
       ],
       "faq": [
         {
-          "q": "Wann ist die beste Pflanzzeit?",
-          "a": "Ideal sind Herbst und zeitiges Frühjahr, solange der Boden nicht gefroren ist. Dann kann der Baum vor dem ersten Sommer gut einwurzeln."
+          "q": "Wann ist die beste Zeit für eine Gartengestaltung?",
+          "a": "Für Pflanzungen sind Herbst und zeitiges Frühjahr ideal, solange der Boden nicht gefroren ist. Die Planung können wir das ganze Jahr über gemeinsam angehen."
         },
         {
-          "q": "Welcher Baum passt in einen kleinen Garten?",
-          "a": "Es gibt viele Arten, die klein bleiben oder sich gut in Form halten lassen. Entscheidend sind Endhöhe, Kronenbreite und Abstand zu Haus und Grenze. Wir beraten Sie dazu vor Ort."
+          "q": "Was passt in einen kleinen Garten?",
+          "a": "Es gibt viele Bäume und Sträucher, die klein bleiben oder sich gut in Form halten lassen. Entscheidend sind Endhöhe, Breite und Abstand zu Haus und Grenze. Wir beraten Sie dazu vor Ort."
         }
       ],
       "image": "/assets/leistungen/gartenneugestaltung-mit-beleuchtung.webp",
@@ -320,15 +320,15 @@ export const galabau: GalabauConfig = {
         "baseMin": 300
       },
       "seo": {
-        "title": "Baumpflanzung in Rastatt | Manfred Gelszinnus",
-        "description": "Neupflanzung und Ersatzpflanzung von Bäumen in Rastatt und Umgebung: Beratung zur Baumart, fachgerechte Pflanzung, Verankerung und Pflegehinweise."
+        "title": "Gartengestaltung in Karlsruhe | Manfred Gelszinnus",
+        "description": "Gartengestaltung in Karlsruhe und Umgebung: Beratung, Planung, Pflanzung von Bäumen und Sträuchern, Neugestaltung von Beeten und Flächen."
       }
     }
   ],
   "serviceArea": {
-    "centerCity": "Rastatt",
+    "centerCity": "Karlsruhe",
     "radiusKm": 40,
-    "note": "Wir sind in Rastatt, Karlsruhe und im Umkreis von rund 40 km für Sie unterwegs. Liegt Ihr Grundstück weiter entfernt, fragen Sie trotzdem an, wir prüfen das im Einzelfall.",
+    "note": "Wir sind in Karlsruhe und im Umkreis von rund 40 km für Sie unterwegs. Liegt Ihr Grundstück weiter entfernt, fragen Sie trotzdem an, wir prüfen das im Einzelfall.",
     "plzPrefixes": [
       "76"
     ],
@@ -337,17 +337,16 @@ export const galabau: GalabauConfig = {
       "77"
     ],
     "places": [
-      "Rastatt",
       "Karlsruhe"
     ],
     "center": {
-      "lat": 48.8737821,
-      "lng": 8.2040703
+      "lat": 48.9912314,
+      "lng": 8.3463538
     }
   },
   "contact": {
-    "phone": "07222 25882",
-    "phoneLink": "tel:+49722225882",
+    "phone": "+49 175 1521546",
+    "phoneLink": "tel:+491751521546",
     "whatsapp": "0175 1521546",
     "whatsappLink": "https://wa.me/491751521546",
     "whatsappPrefill": "Hallo Herr Gelszinnus, ich habe eine Frage zu einem Baum in ",
@@ -431,7 +430,7 @@ export const galabau: GalabauConfig = {
     "enabled": false,
     "headline": "Baumpfleger, Helfer oder Quereinsteiger?",
     "teaser": "In 60 Sekunden bewerben. Ohne Lebenslauf, ohne Anschreiben.",
-    "intro": "Wir suchen Verstärkung für Baumarbeiten rund um Rastatt. Erzählen Sie uns kurz, was Sie können, den Rest klären wir am Telefon.",
+    "intro": "Wir suchen Verstärkung für Baumarbeiten rund um Karlsruhe. Erzählen Sie uns kurz, was Sie können, den Rest klären wir am Telefon.",
     "roles": [
       "Baumpfleger/in",
       "Helfer/in Baumpflege und Fällung",
@@ -450,7 +449,7 @@ export const galabau: GalabauConfig = {
     "usps": [
       {
         "label": "Alles aus einer Hand",
-        "text": "Baumkontrolle, Pflege, Fällung und Neupflanzung vom selben Betrieb, ohne Abstimmung zwischen mehreren Firmen."
+        "text": "Baumkontrolle, Pflege, Fällung und Gartengestaltung vom selben Betrieb, ohne Abstimmung zwischen mehreren Firmen."
       },
       {
         "label": "Inhaber als Ansprechpartner",

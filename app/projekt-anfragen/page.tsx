@@ -9,7 +9,7 @@ import { buildWhatsappHref } from "@/lib/service-area";
 
 export const metadata: Metadata = {
   title: `Besichtigung anfragen | Baumpflege in ${company.address.city}`,
-  description: `Baumpflege, Baumfällung, Baumkontrolle oder Neupflanzung in ${company.address.city} anfragen: Leistung wählen, Fotos vom Baum hochladen, Rückmeldung von Manfred Gelszinnus persönlich.`
+  description: `Baumpflege, Baumfällung, Baumkontrolle oder Gartengestaltung in ${company.address.city} anfragen: Leistung wählen, Fotos vom Baum hochladen, Rückmeldung von Manfred Gelszinnus persönlich.`
 };
 
 export default function ProjektAnfragenPage() {

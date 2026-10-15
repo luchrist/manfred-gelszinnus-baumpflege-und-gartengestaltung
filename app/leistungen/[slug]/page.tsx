@@ -7,7 +7,7 @@ import { galabau, findService } from "@/lib/galabau";
 
 /**
  * Eine Route für alle Leistungsseiten (Baumpflege, Baumfällung,
- * Baumkontrolle, Neupflanzung, …). Inhalt kommt vollständig aus
+ * Baumkontrolle, Gartengestaltung, …). Inhalt kommt vollständig aus
  * lib/galabau.ts, damit die Factory pro Betrieb nur die Config seeden muss.
  */
 

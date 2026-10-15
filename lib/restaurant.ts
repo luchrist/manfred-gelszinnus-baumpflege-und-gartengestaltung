@@ -75,13 +75,13 @@ export const restaurant: RestaurantConfig = {
   "cuisine": "Baumpflege",
   "nativeTagline": "",
   "nativeTaglineTranslation": "",
-  "phone": "07222 25882",
-  "phoneLink": "tel:+49722225882",
+  "phone": "+49 175 1521546",
+  "phoneLink": "tel:+491751521546",
   "email": "",
   "address": {
-    "street": "Efeuweg 16",
-    "cityLine": "76437 Rastatt",
-    "city": "Rastatt"
+    "street": "Strahlenburgweg 16",
+    "cityLine": "76189 Karlsruhe",
+    "city": "Karlsruhe"
   },
   "mapsUrl": "https://maps.google.com/?cid=15923731285390290898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "googleBusinessProfileUrl": "https://maps.google.com/?cid=15923731285390290898&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -119,15 +119,15 @@ export const restaurant: RestaurantConfig = {
     "latestMinutes": 30
   },
   "seo": {
-    "title": "Manfred Gelszinnus - Baumpflege und Gartengestaltung | Baumpflege in Rastatt",
-    "description": "Manfred Gelszinnus - Baumpflege und Gartengestaltung in Rastatt. baumpflege Küche, aktuelle Öffnungszeiten und Kontaktinformationen auf einen Blick.",
+    "title": "Manfred Gelszinnus - Baumpflege und Gartengestaltung | Baumpflege in Karlsruhe",
+    "description": "Manfred Gelszinnus - Baumpflege und Gartengestaltung in Karlsruhe. baumpflege Küche, aktuelle Öffnungszeiten und Kontaktinformationen auf einen Blick.",
     "keywords": [
       "Manfred Gelszinnus - Baumpflege und Gartengestaltung",
-      "Baumpflege Rastatt",
-      "Manfred Gelszinnus - Baumpflege und Gartengestaltung Rastatt"
+      "Baumpflege Karlsruhe",
+      "Manfred Gelszinnus - Baumpflege und Gartengestaltung Karlsruhe"
     ],
     "ogTitle": "Manfred Gelszinnus - Baumpflege und Gartengestaltung",
-    "ogDescription": "Manfred Gelszinnus - Baumpflege und Gartengestaltung in Rastatt. baumpflege Küche, aktuelle Öffnungszeiten und Kontaktinformationen auf einen Blick.",
+    "ogDescription": "Manfred Gelszinnus - Baumpflege und Gartengestaltung in Karlsruhe. baumpflege Küche, aktuelle Öffnungszeiten und Kontaktinformationen auf einen Blick.",
     "locale": "de_DE"
   },
   "legal": {

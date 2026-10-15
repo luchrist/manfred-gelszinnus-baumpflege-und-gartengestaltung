@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
 const city = restaurant.address.city;
 const owner = restaurant.legal.ownerName || restaurant.name;
 const SEO_TITLE = `Baumpflege in ${city} | ${owner}`;
-const SEO_DESCRIPTION = `Baumpflege, Baumfällung, Baumkontrolle und Neupflanzung in ${city}, Karlsruhe und Umgebung. ${owner}: Besichtigung vor Ort, ehrliche Einschätzung, ein Ansprechpartner.`;
+const SEO_DESCRIPTION = `Baumpflege, Baumfällung, Baumkontrolle und Gartengestaltung in ${city} und Umgebung. ${owner}: Besichtigung vor Ort, ehrliche Einschätzung, ein Ansprechpartner.`;
 
 export const metadata: Metadata = {
   title: SEO_TITLE,
@@ -38,8 +38,6 @@ export const metadata: Metadata = {
     `Baumfällung ${city}`,
     `Baumkontrolle ${city}`,
     `Baumschnitt ${city}`,
-    "Baumpflege Karlsruhe",
-    "Baumfällung Karlsruhe",
     owner
   ],
   openGraph: {
