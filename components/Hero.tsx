@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 
 import company from "@/config/company";
 import { galabau } from "@/lib/galabau";
-import { buildWhatsappHref } from "@/lib/service-area";
 
 // No real tree-work footage yet, so the climber photo is the poster. The
 // skeleton's drone clip showed a landscaped garden, which is the wrong story for
@@ -83,8 +82,6 @@ export function Hero() {
     };
   }, []);
 
-  const whatsappHref = buildWhatsappHref(galabau.serviceArea.centerCity);
-
   return (
     <section className="relative h-[100dvh] min-h-[560px] overflow-hidden bg-ink">
       {/* The opacity belongs to this wrapper, not to the video itself: Safari
@@ -162,29 +159,7 @@ export function Hero() {
               >
                 Besichtigung anfragen
               </a>
-              {whatsappHref ? (
-                <a
-                  href={whatsappHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-bone/45 bg-bone/5 px-7 py-4 text-[14px] font-medium tracking-wide text-bone backdrop-blur-sm transition-colors hover:bg-bone/15 active:scale-[0.98]"
-                >
-                  Baumfotos per WhatsApp
-                </a>
-              ) : null}
             </div>
-
-            {company.contact.phone ? (
-              <p className="mt-5 text-[14px] text-bone/80 drop-shadow-md">
-                Lieber direkt sprechen?{" "}
-                <a
-                  href={company.contact.phoneLink || "#"}
-                  className="font-medium text-bone underline decoration-bone/40 underline-offset-4 hover:decoration-bone"
-                >
-                  {company.contact.phone}
-                </a>
-              </p>
-            ) : null}
 
             <p className="mt-3 hidden font-mono text-[11px] uppercase tracking-[0.18em] text-bone/60 md:block">
               {galabau.assistant.responsePromise}

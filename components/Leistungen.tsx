@@ -19,7 +19,7 @@ export function Leistungen() {
             <span>Leistungen</span>
           </div>
           <h2 className="mt-6 font-display text-[32px] leading-[1.05] tracking-tight text-ink sm:text-[40px] md:text-[58px]">
-            Alles rund um <span className="italic text-laub-500">Ihren Baum.</span>
+            Alles rund um <span className="italic text-laub-500">Ihren Baum und Garten.</span>
           </h2>
         </div>
 
